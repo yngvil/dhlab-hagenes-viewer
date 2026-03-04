@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-11-06T13:15:01.803+01:00</Created>
+        <LastChange>2025-11-17T12:16:20.156+01:00</LastChange>
+        <TranskribusMetadata docId="11983136" pageId="105561150" pageNr="5" tsid="261778789" status="IN_PROGRESS" userId="384997" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=YBQJVRKPVDYAHRTXHSKSJUDN" xmlUrl="https://files.transkribus.eu/Get?id=MPNRTFZQVJOLPPTEGXTDEGYK" imageId="88621475"/>
+    </Metadata>
+    <Page imageFilename="no-nb_digimanus_398864_0005.jpg" imageWidth="7750" imageHeight="4250">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1771743912382" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="1309,477 3235,477 3235,3425 1309,3425"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1433,640 3089,689 3090,659 1434,610"/>
+                <Baseline points="1433,640 3089,689"/>
+                <TextEquiv>
+                    <Unicode>Sollempnitas sancti Pauli deuote est recolenda. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="1384,794 3103,840 3104,810 1385,764"/>
+                <Baseline points="1384,794 3103,840"/>
+                <TextEquiv>
+                    <Unicode>Quem Dominus tanta ditauit gratia. Ut doctor gen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="1450,920 3122,972 3123,942 1451,890"/>
+                <Baseline points="1450,920 3122,972"/>
+                <TextEquiv>
+                    <Unicode>tium ab omni uocetur ecclesia. Agnus de lu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="1455,1071 3109,1101 3110,1071 1456,1041"/>
+                <Baseline points="1455,1071 3109,1101"/>
+                <TextEquiv>
+                    <Unicode>po de persecutore euangelista. Mutata sunt </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;}">
+                <Coords points="1442,1208 3131,1252 3132,1222 1443,1178"/>
+                <Baseline points="1442,1208 2253,1229 3131,1252"/>
+                <TextEquiv>
+                    <Unicode>opera mutatur et omnia. Paulus nominatur qui</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:5;}">
+                <Coords points="1444,1365 3100,1381 3100,1351 1444,1335"/>
+                <Baseline points="1444,1365 3100,1381"/>
+                <TextEquiv>
+                    <Unicode>Saulus ante dictus fuerat. Instigatus furia </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:6;}">
+                <Coords points="1450,1494 3139,1521 3139,1491 1450,1464"/>
+                <Baseline points="1450,1494 3139,1521"/>
+                <TextEquiv>
+                    <Unicode>dirum uirus efflabat strage seuissima membra </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:7;}">
+                <Coords points="1444,1626 3067,1653 3067,1623 1444,1596"/>
+                <Baseline points="1444,1626 3067,1653"/>
+                <TextEquiv>
+                    <Unicode>Christi seuiens torquebat. Lux etherea quem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:8;}">
+                <Coords points="1444,1777 3100,1796 3100,1766 1444,1747"/>
+                <Baseline points="1444,1777 3100,1796"/>
+                <TextEquiv>
+                    <Unicode>circumfulgens uisu priuat. Spiritualem sed ei</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:9;}">
+                <Coords points="1436,1944 3103,1953 3103,1923 1436,1914"/>
+                <Baseline points="1436,1944 2299,1957 3103,1953"/>
+                <TextEquiv>
+                    <Unicode>intuitum donat. Colafisans eum ne superbiat. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:10;}">
+                <Coords points="1450,2076 3111,2076 3111,2046 1450,2046"/>
+                <Baseline points="1450,2076 3111,2076"/>
+                <TextEquiv>
+                    <Unicode>Sternit eum sed ruentem releuat. Deiec</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:11;}">
+                <Coords points="1439,2235 3081,2233 3081,2203 1439,2205"/>
+                <Baseline points="1439,2235 2758,2233 3081,2233"/>
+                <TextEquiv>
+                    <Unicode>tum increpat. Increpans emendat fidei doc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:12;}">
+                <Coords points="1436,2384 3100,2381 3100,2351 1436,2354"/>
+                <Baseline points="1436,2384 3100,2381"/>
+                <TextEquiv>
+                    <Unicode>trinam commendat. Defensorem ecclesie ordi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:13;}">
+                <Coords points="1447,2537 3125,2521 3125,2491 1447,2507"/>
+                <Baseline points="1447,2537 3125,2521"/>
+                <TextEquiv>
+                    <Unicode>nat. Impugnator qui prius extiterat. Secreta </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:14;}">
+                <Coords points="1436,2702 3158,2688 3158,2658 1436,2672"/>
+                <Baseline points="1436,2702 3158,2688"/>
+                <TextEquiv>
+                    <Unicode>mistica. Credendi reuelat que homini loqui</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:15;}">
+                <Coords points="1442,2867 3197,2820 3196,2790 1441,2837"/>
+                <Baseline points="1442,2867 3214,2827"/>
+                <TextEquiv>
+                    <Unicode>non licebat. Prius sinagoga quem educauerat.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_16" custom="readingOrder {index:16;}">
+                <Coords points="1343,3004 3161,2971 3160,2941 1342,2974"/>
+                <Baseline points="1343,3004 3161,2971"/>
+                <TextEquiv>
+                    <Unicode>Post modum letatur matre ecclesia misteria </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:17;}">
+                <Coords points="1452,3147 3067,3130 3067,3100 1452,3117"/>
+                <Baseline points="1452,3147 3067,3130"/>
+                <TextEquiv>
+                    <Unicode>que nouerat per totum iens orbem predicat. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:18;}">
+                <Coords points="1386,3293 3104,3263 3103,3233 1385,3263"/>
+                <Baseline points="1386,3293 3104,3263"/>
+                <TextEquiv>
+                    <Unicode>Uenit Romam Deum unum adnuntians. Nero re </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;}">
+            <Coords points="3269,574 5507,574 5507,3362 3269,3362"/>
+            <TextLine id="l_19" custom="readingOrder {index:0;}">
+                <Coords points="3348,724 3820,731 4956,669 4954,639 3819,701 3348,694"/>
+                <Baseline points="3348,724 3820,731 4956,669"/>
+                <TextEquiv>
+                    <Unicode>ristit qui colebat idola. Morte dira illum ne </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_20" custom="readingOrder {index:1;}">
+                <Coords points="3348,859 3604,881 4898,797 4896,767 3604,851 3351,829"/>
+                <Baseline points="3348,859 3604,881 4898,797"/>
+                <TextEquiv>
+                    <Unicode>cat mundo exemptum mittat ad astra. Quo nos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:2;}">
+                <Coords points="3337,998 3575,1012 4971,936 4969,906 3575,982 3339,968"/>
+                <Baseline points="3337,998 3575,1012 4971,936"/>
+                <TextEquiv>
+                    <Unicode>Deus miserando perducat. Adiutos prece Pau</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_22" custom="readingOrder {index:3;}">
+                <Coords points="3341,1129 3768,1126 5132,1064 5131,1034 3767,1096 3341,1099"/>
+                <Baseline points="3341,1129 3768,1126 5132,1064"/>
+                <TextEquiv>
+                    <Unicode>li sancta. aeuia. S. in dominicis diebus in aduentum Domini</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_23" custom="readingOrder {index:4;}">
+                <Coords points="3381,1272 4807,1228 4806,1198 3380,1242"/>
+                <Baseline points="3381,1272 4807,1228"/>
+                <TextEquiv>
+                    <Unicode>Salus eterna indeficiens mundi uita. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_24" custom="readingOrder {index:5;}">
+                <Coords points="3388,1411 4986,1363 4985,1333 3387,1381"/>
+                <Baseline points="3388,1411 4986,1363"/>
+                <TextEquiv>
+                    <Unicode>Lux sempiterna et redemptio uere nostra. Con</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_25" custom="readingOrder {index:6;}">
+                <Coords points="3363,1535 4960,1491 4959,1461 3362,1505"/>
+                <Baseline points="3363,1535 4960,1491"/>
+                <TextEquiv>
+                    <Unicode>dolens humana perire secla per temptantis numi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_26" custom="readingOrder {index:7;}">
+                <Coords points="3352,1659 4997,1630 4996,1600 3351,1629"/>
+                <Baseline points="3352,1659 4997,1630"/>
+                <TextEquiv>
+                    <Unicode>na. Non linquens excelsa adisti ima propria </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_27" custom="readingOrder {index:8;}">
+                <Coords points="3377,1809 5055,1765 5054,1735 3376,1779"/>
+                <Baseline points="3377,1809 5055,1765"/>
+                <TextEquiv>
+                    <Unicode>clementia. Mox tua spontanea gratia assumens </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_28" custom="readingOrder {index:9;}">
+                <Coords points="3377,1952 4982,1908 4981,1878 3376,1922"/>
+                <Baseline points="3377,1952 4982,1908"/>
+                <TextEquiv>
+                    <Unicode>humana. Que fuerant perdita omnia saluasti ter </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_29" custom="readingOrder {index:10;}">
+                <Coords points="3377,2072 5008,2069 5008,2039 3377,2042"/>
+                <Baseline points="3377,2072 5008,2069"/>
+                <TextEquiv>
+                    <Unicode>rea. Ferens mundo gaudia. Tu animas et cor</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_30" custom="readingOrder {index:11;}">
+                <Coords points="3396,2226 5015,2219 5015,2189 3396,2196"/>
+                <Baseline points="3396,2226 5015,2219"/>
+                <TextEquiv>
+                    <Unicode>pora. Nostra Christe expia. Ut possideas lucida.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_31" custom="readingOrder {index:12;}">
+                <Coords points="3392,2365 5008,2361 5008,2331 3392,2335"/>
+                <Baseline points="3392,2365 5008,2361"/>
+                <TextEquiv>
+                    <Unicode>Nosmet habitacula. Aduentu primo ius</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_32" custom="readingOrder {index:13;}">
+                <Coords points="3410,2511 4956,2504 4956,2474 3410,2481"/>
+                <Baseline points="3410,2511 4956,2504"/>
+                <TextEquiv>
+                    <Unicode>tifica. In secundo nosque libera. Ut cum fac</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_33" custom="readingOrder {index:14;}">
+                <Coords points="3399,2668 5004,2668 5004,2638 3399,2638"/>
+                <Baseline points="3399,2668 5004,2668"/>
+                <TextEquiv>
+                    <Unicode>ta luce magna iudicabis omnia. Compti stola </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_34" custom="readingOrder {index:15;}">
+                <Coords points="3414,2796 4945,2793 4945,2763 3414,2766"/>
+                <Baseline points="3414,2796 3532,2799 4945,2793"/>
+                <TextEquiv>
+                    <Unicode>incorrupta nosmet tua subsequamur mox</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_35" custom="readingOrder {index:16;}">
+                <Coords points="3403,2935 5019,2939 5019,2909 3403,2905"/>
+                <Baseline points="3403,2935 5019,2939"/>
+                <TextEquiv>
+                    <Unicode>uestigia quocumque uisa. S. Johis apt lat. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_36" custom="readingOrder {index:17;}">
+                <Coords points="3396,3107 5490,3052 5489,3022 3395,3077"/>
+                <Baseline points="3396,3107 5490,3052"/>
+                <TextEquiv>
+                    <Unicode>Virgo mater gratul in orbe catholica. Re</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_37" custom="readingOrder {index:18;}">
+                <Coords points="3425,3231 4967,3224 4967,3194 3425,3201"/>
+                <Baseline points="3425,3231 4967,3224"/>
+                <TextEquiv>
+                    <Unicode>gi regum pangat melos noua promens </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

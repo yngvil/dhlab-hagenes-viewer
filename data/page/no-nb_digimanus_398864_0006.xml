@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-11-06T13:15:01.927+01:00</Created>
+        <LastChange>2025-11-17T12:17:22.904+01:00</LastChange>
+        <TranskribusMetadata docId="11983136" pageId="105561028" pageNr="6" tsid="261779420" status="IN_PROGRESS" userId="384997" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=MNIIFWISKAGQGOIAJWUEPCWO" xmlUrl="https://files.transkribus.eu/Get?id=ZABXRYBULOXPYFIKLRYHWJIN" imageId="88621506"/>
+    </Metadata>
+    <Page imageFilename="no-nb_digimanus_398864_0006.jpg" imageWidth="7750" imageHeight="4250">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1771743912745" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;}">
+            <Coords points="1165,585 3088,582 3088,3244 1136,3247"/>
+            <TextLine id="l" custom="readingOrder {index:0;}">
+                <Coords points="1324,712 2941,738 2941,708 1324,682"/>
+                <Baseline points="1324,712 2941,738"/>
+                <TextEquiv>
+                    <Unicode>cantica. Laus illi et gloria. Iohannis euange</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;}">
+                <Coords points="1306,862 2924,888 2924,858 1306,832"/>
+                <Baseline points="1296,880 1534,880 2924,888"/>
+                <TextEquiv>
+                    <Unicode>liste precelsa sollemnitas. Hodie per to</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;}">
+                <Coords points="1318,1015 2924,1032 2924,1002 1318,985"/>
+                <Baseline points="1318,1015 2924,1032"/>
+                <TextEquiv>
+                    <Unicode>tum mundum laudes habet debitas. Et</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="1312,1162 2900,1180 2900,1150 1312,1132"/>
+                <Baseline points="1312,1162 2900,1180"/>
+                <TextEquiv>
+                    <Unicode>laudum preconia. Qui uocatus patrem </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;}">
+                <Coords points="1312,1297 2921,1309 2921,1279 1312,1267"/>
+                <Baseline points="1213,1327 1465,1328 2946,1323"/>
+                <TextEquiv>
+                    <Unicode>spreuit et nauem et retia. Redemptoris vo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:5;}">
+                <Coords points="1303,1444 2891,1444 2891,1414 1303,1414"/>
+                <Baseline points="1303,1444 2891,1444"/>
+                <TextEquiv>
+                    <Unicode>cem seques post uocem uestigia. O quan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:6;}">
+                <Coords points="1280,1606 2933,1600 2933,1570 1280,1576"/>
+                <Baseline points="1280,1606 2933,1600"/>
+                <TextEquiv>
+                    <Unicode>ta fiducia. In monte transfigurati uidit mi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:7;}">
+                <Coords points="1282,1738 2900,1732 2900,1702 1282,1708"/>
+                <Baseline points="1282,1738 2900,1732"/>
+                <TextEquiv>
+                    <Unicode>rabilia. In cena secreta Dei didicit subli</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:8;}">
+                <Coords points="1285,1874 2903,1874 2903,1844 1285,1844"/>
+                <Baseline points="1285,1874 2903,1874"/>
+                <TextEquiv>
+                    <Unicode>mia. O quanta magnalia. In cruce dum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:9;}">
+                <Coords points="1291,2018 2906,2012 2906,1982 1291,1988"/>
+                <Baseline points="1291,2018 2906,2012"/>
+                <TextEquiv>
+                    <Unicode>pateretur rex mortis supplicia. Virgi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:10;}">
+                <Coords points="1280,2135 2927,2147 2927,2117 1280,2105"/>
+                <Baseline points="1280,2135 2927,2147"/>
+                <TextEquiv>
+                    <Unicode>nem uirgo seruandam sumpsit in custodia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:11;}">
+                <Coords points="1282,2280 2874,2285 2874,2255 1282,2250"/>
+                <Baseline points="1282,2280 2874,2285"/>
+                <TextEquiv>
+                    <Unicode>O clara pudicitia. Post assumptionem </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:12;}">
+                <Coords points="1285,2397 2941,2418 2941,2388 1285,2367"/>
+                <Baseline points="1285,2397 2941,2418"/>
+                <TextEquiv>
+                    <Unicode>eius ad supernam curiam. Beatus euangelista </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_13" custom="readingOrder {index:13;}">
+                <Coords points="1268,2512 2912,2533 2912,2503 1268,2482"/>
+                <Baseline points="1268,2512 2912,2533"/>
+                <TextEquiv>
+                    <Unicode>mittitur ad asiam. Summa prouidentia.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:14;}">
+                <Coords points="1147,2656 2983,2653 2983,2623 1147,2626"/>
+                <Baseline points="1147,2656 2983,2653"/>
+                <TextEquiv>
+                    <Unicode>Hunc ante portam latinam ad Rome spectacu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:15;}">
+                <Coords points="1294,2791 2950,2771 2950,2741 1294,2761"/>
+                <Baseline points="1294,2791 2950,2771"/>
+                <TextEquiv>
+                    <Unicode>la. Oleum feruens non lesit quam pulcra mi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_16" custom="readingOrder {index:16;}">
+                <Coords points="1294,2921 2977,2903 2977,2873 1294,2891"/>
+                <Baseline points="1294,2921 3007,2900"/>
+                <TextEquiv>
+                    <Unicode>racula. Et clara uictoria. Propter insupe</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:17;}">
+                <Coords points="1297,3059 2968,3038 2968,3008 1297,3029"/>
+                <Baseline points="1297,3059 1885,3059 2968,3038"/>
+                <TextEquiv>
+                    <Unicode>rabilem eloquii constantiam. Domiciani ce</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:18;}">
+                <Coords points="1285,3212 3021,3197 3021,3167 1285,3182"/>
+                <Baseline points="1285,3212 2506,3208 3021,3197"/>
+                <TextEquiv>
+                    <Unicode>saris raptus per iracundiam. Dira subiit exilia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

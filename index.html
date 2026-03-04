@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hagenesmanuskriptet</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a
+        class="nb-lockup"
+        href="https://nb.no"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Gå til nb.no"
+      >
+        <img src="./assets/NB-Logo-Aubergine.svg" alt="Nasjonalbiblioteket" />
+      </a>
+      <div class="title-block">
+        <h1>Hagenesmanuskriptet</h1>
+        <button type="button" id="open-info" class="info-trigger">Om Hagenesmanuskriptet</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="viewer-column" aria-label="Manuskriptvisning">
+        <div class="panel controls-panel">
+          <div class="control-row">
+            <button type="button" id="prev-page" class="nav-btn" aria-label="Forrige side">Forrige</button>
+            <span id="page-indicator" class="page-indicator">Side - av -</span>
+            <button type="button" id="next-page" class="nav-btn" aria-label="Neste side">Neste</button>
+            <button type="button" id="pick-tei" class="nav-btn" aria-label="Velg TEI-fil">Velg TEI-fil</button>
+            <input id="tei-file" type="file" accept=".xml,.tei,application/xml,text/xml" />
+          </div>
+          <p id="data-status" class="data-status"></p>
+        </div>
+
+        <div class="reading-layout">
+          <article class="panel image-panel" aria-label="Manuskriptbilde">
+            <figure class="image-wrap">
+              <img id="page-image" alt="Manuskriptside" loading="lazy" role="button" tabindex="0" />
+            </figure>
+            <p class="image-hint">Klikk bildet for full visning (Esc for å lukke)</p>
+          </article>
+
+          <article class="panel text-panel" aria-label="Transkripsjon og oversettelse">
+            <div class="parallel-head" aria-hidden="true">
+              <span>Latin</span>
+              <span>Norsk</span>
+            </div>
+            <div id="text-grid" class="text-grid">
+              <p class="muted">Laster transkripsjon...</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="image-overlay" class="image-overlay" hidden>
+      <button id="close-overlay" class="overlay-close" type="button" aria-label="Lukk fullskjerm">×</button>
+      <img id="overlay-image" alt="Manuskriptside i fullskjerm" />
+    </div>
+
+    <div id="info-overlay" class="info-overlay" hidden>
+      <article class="info-dialog" role="dialog" aria-modal="true" aria-labelledby="info-title">
+        <button id="close-info" class="overlay-close" type="button" aria-label="Lukk informasjon">×</button>
+        <h2 id="info-title">Om Hagenesmanuskriptet</h2>
+        <p class="info-ingress">
+          Hagenesmanuskriptet er en sangbok fra 1200-tallet bundet i selskinn, og kan være
+          Norges eldste bevarte bok. Det er en av de mest betydningsfulle nyere anskaffelsene
+          til Nasjonalbiblioteket.
+        </p>
+        <p>
+          Boka består av to doble blader og er en liturgisk sangbok ment for bruk i messe.
+          Manuskriptet er sannsynligvis laget i Norge på begynnelsen av 1200-tallet, og antas
+          å ha tilhørt en kirke eller et kloster i middelalderen.
+        </p>
+        <p>
+          Manuskriptet er oppkalt etter Hagenesfamilien og gården deres på Osterøy nær Bergen.
+          Hagenesfamilien har gjennom generasjoner eid manuskriptet, som nå er en del av
+          Nasjonalbibliotekets samling.
+        </p>
+        <h3 class="info-subtitle">Ressurser</h3>
+        <div class="info-links">
+          <a href="https://www.youtube.com/watch?v=kOet2SDl_vo" target="_blank" rel="noopener noreferrer"
+            >Se film på YouTube</a
+          >
+          <a href="https://urn.nb.no/URN:NBN:no-nb_digimanus_398864" target="_blank" rel="noopener noreferrer"
+            >Åpne i Nettbiblioteket</a
+          >
+        </div>
+      </article>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

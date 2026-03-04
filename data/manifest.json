@@ -1,0 +1,30 @@
+{
+  "title": "Hagenesmanuskriptet",
+  "pages": [
+    {
+      "id": "0002",
+      "label": "Side 2",
+      "image": "./data/images/no-nb_digimanus_398864_0002.jpg"
+    },
+    {
+      "id": "0003",
+      "label": "Side 3",
+      "image": "./data/images/no-nb_digimanus_398864_0003.jpg"
+    },
+    {
+      "id": "0004",
+      "label": "Side 4",
+      "image": "./data/images/no-nb_digimanus_398864_0004.jpg"
+    },
+    {
+      "id": "0005",
+      "label": "Side 5",
+      "image": "./data/images/no-nb_digimanus_398864_0005.jpg"
+    },
+    {
+      "id": "0006",
+      "label": "Side 6",
+      "image": "./data/images/no-nb_digimanus_398864_0006.jpg"
+    }
+  ]
+}
