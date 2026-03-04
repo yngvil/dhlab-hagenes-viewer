@@ -38,9 +38,6 @@ const pageIndicator = document.getElementById("page-indicator");
 const prevPageBtn = document.getElementById("prev-page");
 const nextPageBtn = document.getElementById("next-page");
 const openInfoBtn = document.getElementById("open-info");
-const pickTeiBtn = document.getElementById("pick-tei");
-const teiFileInput = document.getElementById("tei-file");
-const dataStatus = document.getElementById("data-status");
 const imageOverlay = document.getElementById("image-overlay");
 const overlayImage = document.getElementById("overlay-image");
 const closeOverlayBtn = document.getElementById("close-overlay");
@@ -50,20 +47,6 @@ const closeInfoBtn = document.getElementById("close-info");
 let manifest = null;
 let currentIndex = 0;
 let teiContentByPageId = new Map();
-
-function countTranslatedSegments(pageMap) {
-  let total = 0;
-  let translated = 0;
-  pageMap.forEach((regions) => {
-    regions.forEach((region) => {
-      region.sentences.forEach((sentence) => {
-        total += 1;
-        if (sentence.no) translated += 1;
-      });
-    });
-  });
-  return { total, translated };
-}
 
 function normalizeText(text) {
   return (text || "").replace(/\s+/g, " ").trim();
@@ -140,12 +123,8 @@ async function loadDefaultTei() {
     }
     const teiXml = await response.text();
     teiContentByPageId = parseTeiContent(teiXml);
-    const counts = countTranslatedSegments(teiContentByPageId);
-    dataStatus.textContent = `TEI lastet automatisk: ${counts.translated}/${counts.total} segmenter med norsk tekst.`;
   } catch (_error) {
     teiContentByPageId = new Map();
-    dataStatus.textContent =
-      "Kunne ikke laste TEI automatisk. Klikk 'Velg TEI-fil' for lokal visning.";
   }
 }
 
@@ -268,21 +247,6 @@ nextPageBtn.addEventListener("click", async () => {
 });
 
 openInfoBtn.addEventListener("click", openInfo);
-pickTeiBtn.addEventListener("click", () => teiFileInput.click());
-teiFileInput.addEventListener("change", async (event) => {
-  const file = event.target.files && event.target.files[0];
-  if (!file) return;
-
-  try {
-    const text = await file.text();
-    teiContentByPageId = parseTeiContent(text);
-    const counts = countTranslatedSegments(teiContentByPageId);
-    dataStatus.textContent = `TEI lastet fra fil (${file.name}): ${counts.translated}/${counts.total} segmenter med norsk tekst.`;
-    await renderCurrentPage();
-  } catch (_error) {
-    dataStatus.textContent = "Klarte ikke lese valgt TEI-fil.";
-  }
-});
 
 pageImage.addEventListener("click", openOverlay);
 pageImage.addEventListener("keydown", (event) => {

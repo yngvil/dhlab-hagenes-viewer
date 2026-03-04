@@ -120,16 +120,6 @@ main {
   text-align: center;
 }
 
-#tei-file {
-  display: none;
-}
-
-.data-status {
-  margin: 0.05rem 0 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
 .reading-layout {
   display: grid;
   grid-template-columns: minmax(320px, 1fr) minmax(340px, 1fr);
