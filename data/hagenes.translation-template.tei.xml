@@ -232,8 +232,12 @@
             <ns0:seg xml:id="p0003-r2-s15-no" xml:lang="no" corresp="#p0003-r2-s15-la">så alt folket gjennom alle tider kan takke deg: det skje, det skje.</ns0:seg>
           </ns0:ab>
           <ns0:ab type="segment-pair" xml:id="p0003-r2-s16">
-            <ns0:seg xml:id="p0003-r2-s16-la" xml:lang="la">(Sequitur Sanctae Mariae) Fecunda uerbo tu uirginum uirgo Maria Dei mater inclita omni laude.</ns0:seg>
-            <ns0:seg xml:id="p0003-r2-s16-no" xml:lang="no" corresp="#p0003-r2-s16-la">Deretter Sankta Maria: Besvangret med ordet, du jomfruers jomfru Maria, Guds mor, opphøyd ved all lovprisning.</ns0:seg>
+            <ns0:seg xml:id="p0003-r2-s16-la" xml:lang="la">Sequitur Sanctae Mariae)</ns0:seg>
+            <ns0:seg xml:id="p0003-r2-s16-no" xml:lang="no" corresp="#p0003-r2-s16-la">Deretter Sankta Maria:</ns0:seg>
+          </ns0:ab>
+          <ns0:ab type="segment-pair" xml:id="p0003-r2-s16_a">
+            <ns0:seg xml:id="p0003-r2-s16_a-la" xml:lang="la">Fecunda uerbo tu uirginum uirgo Maria Dei mater inclita omni laude.</ns0:seg>
+            <ns0:seg xml:id="p0003-r2-s16_a-no" xml:lang="no" corresp="#p0003-r2-s16-la">Besvangret med ordet, du jomfruers jomfru Maria, Guds mor, opphøyd ved all lovprisning.</ns0:seg>
           </ns0:ab>
           <ns0:ab type="segment-pair" xml:id="p0003-r2-s17">
             <ns0:seg xml:id="p0003-r2-s17-la" xml:lang="la">Tu sola digna dignare nos indignos famulos te laudare.</ns0:seg>
@@ -296,8 +300,12 @@
             <ns0:seg xml:id="p0004-r1-s7-no" xml:lang="no" corresp="#p0004-r1-s7-la">Ved henne alene gir han frelse til alle og liv til dem som skal frelses.</ns0:seg>
           </ns0:ab>
           <ns0:ab type="segment-pair" xml:id="p0004-r1-s8">
-            <ns0:seg xml:id="p0004-r1-s8-la" xml:lang="la">Translatio Martini Aue summa presulum eya o Christi gemma meritis inclita uirtute lucida.</ns0:seg>
-            <ns0:seg xml:id="p0004-r1-s8-no" xml:lang="no" corresp="#p0004-r1-s8-la">Sankt Martins translasjonsdag: Hill deg, du Kristi fremste perle blant hyrder, berømt ved fortjenester og strålende i dyd.</ns0:seg>
+            <ns0:seg xml:id="p0004-r1-s8-la" xml:lang="la">Translatio Martini</ns0:seg>
+            <ns0:seg xml:id="p0004-r1-s8-no" xml:lang="no" corresp="#p0004-r1-s8-la">Sankt Martins translasjonsdag:</ns0:seg>
+          </ns0:ab>
+          <ns0:ab type="segment-pair" xml:id="p0004-r1-s8_a">
+            <ns0:seg xml:id="p0004-r1-s8_a-la" xml:lang="la">Aue summa presulum eya o Christi gemma meritis inclita uirtute lucida.</ns0:seg>
+            <ns0:seg xml:id="p0004-r1-s8_a-no" xml:lang="no" corresp="#p0004-r1-s8-la">Hill deg, du Kristi fremste perle blant hyrder, berømt ved fortjenester og strålende i dyd.</ns0:seg>
           </ns0:ab>
           <ns0:ab type="segment-pair" xml:id="p0004-r1-s9">
             <ns0:seg xml:id="p0004-r1-s9-la" xml:lang="la">Nos audi tua festa colentes annua mundo celebria.</ns0:seg>
